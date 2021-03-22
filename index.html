@@ -1,69 +1,48 @@
-<!DOCTYPE html5>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <title>LearnEnglish</title>
-
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/Style.css">
-
-    </head>
-
-    <body>
-        <header><h1>LEW</h1></header>
-        <nav class="navbar navbar-inverse">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <a class="navbar-brand" href="#">Dictionary</a>
-                </div>
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">Home</a></li>
-                    <li><a href="#">Video</a></li>
-                    <li><a href="#">Game</a></li>
-                </ul>
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-                    <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-                </ul>
-            </div>
-        </nav>
-        
-        <div class="container-fluid text-center">    
-            <div class="row content">
-                <div class="col-sm-2 sidenav">
-                    <p><a href="#">Link</a></p>
-                    <p><a href="#">Link</a></p>
-                    <p><a href="#">Link</a></p>
-                </div>
-                <div class="col-sm-8 text-left"> 
-                    <h1>Welcome</h1>
-                    <p>Website từ điển và học tiếng Anh miễn phí</p>
-                    <hr>
-                    <h3>Test</h3>
-                    <p>Lorem ipsum...</p>
-                </div>
-                <div class="col-sm-2 sidenav">
-                    <div class="well">
-                        <p>ADS</p>
-                    </div>
-                    <div class="well">
-                        <p>ADS</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-        
-
-        <footer>Developed by LEW team</footer>
-
-
-        <script src="js/jquery-3.6.0.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/app.js"></script>
-    </body>
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>learning English Web</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<!--[if IE 6]><link rel="stylesheet" type="text/css" href="css/ie6.css"><![endif]-->
+</head>
+<body>
+<div id="header">
+  <div> <a href="index.html"><img src="images/logo_1.png" alt=""></a>
+    <ul>
+      <li class="current"><a href="index.html"><h2>Dictionary</h2></a></li>
+      <li><a href="game.html"><h2>Games</h2></a></li>
+      <li><a href="services.html"><h2>Videos</h2></a></li>
+      <li><a href="blog.html"><h2>Ebooks</h2></a></li>
+      <li><a href="contact.html"><h2>learning</h2></a></li>
+    </ul>
+  </div>
+</div>
+<div id="content">
+  <div>
+    <div>
+      <script id="lbdict_plugin_frame" type="text/javascript">!function(){
+        var h={s:"https://dict.laban.vn",w:800,h:550,hl:2,th:3};
+        function loadScript(t,e){
+          var n=document.createElement("script");
+          n.type="text/javascript",n.readyState?n.onreadystatechange=function(){
+            ("loaded"===n.readyState||"complete"===n.readyState)&&(n.onreadystatechange=null,e())}:n.onload=function(){e()},n.src=t,q=document.getElementById("lbdict_plugin_frame"),q.parentNode.insertBefore(n,q)}setTimeout(function(){loadScript("https://stc-laban.zdn.vn/dictionary/js/plugin/lbdictplugin.frame.min.js",function(){lbDictPluginFrame.init(h)})},1e3); }();</script>
+    </div>
+  </div>
+</div>
+<div id="footer">
+  <div>
+    <div> <span>Follow us</span> <a href="#" class="facebook">Facebook</a> <a href="#" class="subscribe">Subscribe</a> <a href="#" class="twitter">Twitter</a> <a href="#" class="flicker">Flickr</a> </div>
+    <ul>
+      <li> <a href="#"><img src="" alt=""></a>
+        <p></p>
+        <a href="#" class="readmore">LINK</a> </li>
+      <li> <a href="#"><img src="" alt=""></a>
+        <p></p>
+        <a href="#" class="readmore">LINK</a> </li>
+    </ul>
+  </div>
+  
+</div>
+</body>
 </html>
